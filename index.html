@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CovidStats</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+           <div class="col-md-12">
+               <h1 class="shadow-sm p-3 mb-5 bg-body rounded">Covid-19 Status</h1>
+               <p>
+                Coronavirus disease 2019 (COVID-19) is a contagious disease caused by a virus, the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The first known case was identified in Wuhan, China, in December 2019.The disease spread worldwide, leading to the COVID-19 pandemic. <br><br>
+
+                Symptoms of COVID‑19 are variable, but often include fever,cough, headache,fatigue, breathing difficulties, loss of smell, and loss of taste. Symptoms may begin one to fourteen days after exposure to the virus. At least a third of people who are infected do not develop noticeable symptoms.Of those people who develop symptoms noticeable enough to be classed as patients, most (81%) develop mild to moderate symptoms (up to mild pneumonia), while 14% develop severe symptoms (dyspnea, hypoxia, or more than 50% lung involvement on imaging), and 5% develop critical symptoms (respiratory failure, shock, or multiorgan dysfunction).  <br><br>
+                
+                Older people are at a higher risk of developing severe symptoms. Some people continue to experience a range of effects (long COVID) for months after recovery, and damage to organs has been observed.Multi-year studies are underway to further investigate the long-term effects of the disease.
+               </p>
+               <table class="table table-dark fixTableHead" id="covidtable">
+                   <thead class="thead table-striped">
+                       <tr>
+                           <th>Country</th>
+                           <th>Confirmed</th>
+                           <th>Actives</th>
+                           <th>Recovered</th>
+                           <th>Deaths</th>
+                       </tr>
+                   </thead>
+                   <tbody id="tbody">
+
+                   </tbody>
+               </table>
+           </div>
+        </div>
+        <div class="covid col-md-auto">
+            <img src="covid2.png" alt="covid Logo">
+        </div>
+        <div class="who col-md-auto">
+            <img src="who1.png" alt="who Logo">
+        </div>
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>

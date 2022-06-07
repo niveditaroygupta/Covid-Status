@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%);
+}
+h1{
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    margin-top: 50px !important;
+    margin-bottom: 25px !important;
+    color: white !important;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.covid{
+    float: left;
+}
+.who{
+    float:right;
+}
+
+input,select{
+    background-color: white !important;
+    margin-bottom: 20px !important;
+    border-radius: 5px !important;
+}
+
+/* .fixTableHead {
+    overflow-y: auto;
+    height: 110px;
+  }
+  .fixTableHead thead th {
+    position: sticky;
+    top: 0;
+  }
+  table {
+    border-collapse: collapse;        
+    width: 100%;
+  } */
